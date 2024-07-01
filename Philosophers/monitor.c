@@ -6,7 +6,7 @@
 /*   By: diogosan <diogosan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/26 14:13:34 by diogosan          #+#    #+#             */
-/*   Updated: 2024/07/01 12:47:40 by diogosan         ###   ########.fr       */
+/*   Updated: 2024/07/01 15:11:26 by diogosan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,6 +52,9 @@ void	*monitor_philo(void *arg)
 	return (NULL);
 }
 
+/*
+* One philo will have only one fork so, he dies
+*/
 void	*ft_solo_philo(void *arg)
 {
 	t_philo	*philo;

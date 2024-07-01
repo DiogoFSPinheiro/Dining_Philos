@@ -6,7 +6,7 @@
 /*   By: diogosan <diogosan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/25 14:31:07 by diogosan          #+#    #+#             */
-/*   Updated: 2024/06/28 02:29:05 by diogosan         ###   ########.fr       */
+/*   Updated: 2024/07/01 14:31:12 by diogosan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,6 +73,9 @@ void	*ft_meal_simulation(void *arg)
 	return (NULL);
 }
 
+/*
+*	All the meal sim will run here 
+*/
 void	ft_meal_start(t_data *data)
 {
 	int	c;
